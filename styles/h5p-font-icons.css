@@ -4,7 +4,7 @@
   src:  url('../fonts/h5p.eot?e0985y#iefix') format('embedded-opentype'),
     url('../fonts/h5p.ttf?e0985y') format('truetype'),
     url('../fonts/h5p.woff?e0985y') format('woff'),
-    url('../fonts/h5p.svg?e0985y#h5p') format('svg');
+    url('../fonts/h5p.svg?e0985y#H5PFontIcons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -57,6 +57,9 @@
 .icon-menu-anchor-icon:before {
   content: "\e604";
 }
+.icon-menu-multiple-choice-set-icon:before {
+  content: "\e605";
+}
 .icon-left:before {
   content: "\e606";
 }
@@ -101,9 +104,6 @@
 }
 .icon-play-icon:before {
   content: "\e907";
-}
-.icon-menu-multiple-choice-set-icon:before {
-  content: "\e605";
 }
 .icon-video-upload-icon:before {
   content: "\e909";
@@ -176,5 +176,8 @@
 }
 .icon-uniE999:before {
   content: "\e999";
+}
+.icon-bubble-icon:before {
+  content: "\e908";
 }
 
